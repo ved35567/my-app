@@ -5,9 +5,9 @@
   width: 100px;
   height: 35px;
   padding: 0px 10px 0px 15px;
-  gap: 0px;
+
   border-radius: 6px;
-  opacity: 0px;
+
 }
 .Login {
   background: #002aff;
@@ -16,8 +16,8 @@
   border-radius: 6px;
   width: 100px;
   height: 35px;
-  gap: 0px;
-  opacity: 0px;
+ 
+
 }
 .btn {
   position: fixed;
@@ -27,5 +27,5 @@
 
   left: 950px;
   gap: 10px;
-  opacity: 0px;
+
 }
