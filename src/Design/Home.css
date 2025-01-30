@@ -167,3 +167,56 @@
   width: 100px;
   height: 50px;
 }
+
+@media screen and (max-width: 768px) {
+  .Vss {
+    width: 125px;
+    height: 120px;
+  }
+  .HeaderName {
+    position: fixed;
+    /* right: 213px; */
+    top: 27px;
+    width: 110px;
+    left: 64px;
+  }
+  .Section-three {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    gap: 30px;
+    width: 100vw;
+    align-items: center;
+  }
+  .inner-section {
+    top: 56px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 99vw;
+  }
+  .p1 {
+    width: 98px;
+    height: 50px;
+  }
+  .Team {
+    position: relative;
+    top: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    gap: 30px;
+    justify-content: center;
+  }
+  .Discover {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 343px;
+    /* text-align: center; */
+    padding: 0%;
+  }
+}
