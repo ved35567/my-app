@@ -111,8 +111,8 @@
   flex-wrap: wrap;
   width: 100vw;
 }
-.p1 {
-  width: 170px;
+.p-image {
+  width: 110px;
   height: 66px;
 
   align-items: center;
@@ -198,8 +198,8 @@
     justify-content: center;
     width: 99vw;
   }
-  .p1 {
-    width: 98px;
+  .p-image {
+    width: 100px;
     height: 50px;
   }
   .Team {
@@ -218,5 +218,52 @@
     top: 343px;
     /* text-align: center; */
     padding: 0%;
+  }
+}
+@media screen and (max-width: 577px) {
+  .HeaderName {
+    position: fixed;
+    /* right: 213px; */
+    top: 27px;
+    width: 110px;
+    left: 14px;
+  }
+  .Section-one {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100vw;
+    gap: 30px;
+    justify-content: space-evenly;
+
+    text-align: center;
+  }
+  .SportFrame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100vw;
+    top: 200px;
+    position: relative;
+  }
+  .Team {
+    position: relative;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  .Discover img {
+    margin: auto;
+    width: 76px;
+    height: 38px;
   }
 }

@@ -75,7 +75,7 @@ function HomeContent() {
       </div>
 
       <div className="Section-four">
-        <img className="p1" src={navtitle} alt="" />
+        <img className=".p-image" src={navtitle} alt="" />
         <p className="p2">Event Highlights</p>
         <p className="p3">What Makes SPARDHA 2024 an Event You Can’t Miss!</p>
       </div>
