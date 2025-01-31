@@ -514,7 +514,7 @@ align-items: center;
         position: relative;
         margin-top: 8px;
         height: 271px;
-        width: 383px;
+        
         margin: auto;
     }
   
@@ -525,7 +525,7 @@ align-items: center;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  width: 383px;
+ 
   margin: auto;
 }
 .rotary {
@@ -633,5 +633,13 @@ align-items: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   width: 90vw;
+}
+p {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 }
