@@ -174,7 +174,12 @@
     height: 120px;
   }
   .HeaderName {
-    display: none;
+    /* display: none; */
+    position: fixed;
+    right: 250px;
+    top: 15px;
+    width: 140px;
+    left: 40px;
   }
   .Section-three {
     position: relative;
@@ -218,11 +223,7 @@
 }
 @media screen and (max-width: 577px) {
   .HeaderName {
-    position: fixed;
-    /* right: 213px; */
-    top: 27px;
-    width: 110px;
-    left: 14px;
+   display: none;
   }
   .Section-one {
     display: flex;
