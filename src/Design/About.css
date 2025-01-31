@@ -479,50 +479,53 @@ align-items: center;
   width: 90vw;
 }
 .image-container {
-  width: 76vw;
+  width: 80vw;
   height: 521px;
-  padding: 25px;
+  padding: 0px;
   border: 1px solid black;
   border-radius: 5px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 .girl {
   /* width: 29vw; */
-  height: 213px;
+  height: 188px;
   top: 263.71px;
   left: 176px;
 }
 .boy2 {
-  height: 140px;
+  height: 105px;
   /* width: 13vw; */
   position: relative;
   bottom: -150px;
-  width: 148px;
+  width: 112px;
 }
 .boy1 {
-  height: 140px;
+  height: 105px;
   /* width: 13vw; */
   position: relative;
   bottom: -150px;
-  width: 148px;
+  width: 112px;
 }
 .flexi-row {
   display: flex
 ;
-  justify-content: center;
-  position: relative;
-  margin-top: 8px;
-  height: 297px;
+        justify-content: center;
+        position: relative;
+        margin-top: 8px;
+        height: 271px;
+        width: 383px;
+        margin: auto;
+    }
   
- }
+ 
  .flex-column {
   display: flex
 ;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  width: 373px;
+  width: 383px;
   margin: auto;
 }
 .rotary {
