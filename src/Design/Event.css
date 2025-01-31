@@ -53,7 +53,7 @@
 .event-heading {
   width: 60vw;
   height: 110px;
- 
+
   border-radius: 10px 10px 0px 0px;
 
   background: #f26522;
@@ -67,7 +67,6 @@
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
- 
 }
 .school-name {
   font-family: DM Sans;
@@ -84,9 +83,9 @@
 .desc {
   width: 350px;
   height: 110px;
- 
+
   border-radius: 10px 10px 0px 0px;
-  
+
   background: #f26522;
 }
 .day {
@@ -127,7 +126,6 @@
   display: flex;
   flex-direction: column;
   border-radius: 0px 0px 10px 10px;
-  
 }
 .flex-row {
   display: flex;
@@ -137,13 +135,12 @@
   font-weight: 400;
   width: 330px;
 
-
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
 .heading {
   width: 100px;
- 
+
   margin-left: 10px;
 }
 .space {
@@ -151,7 +148,6 @@
 }
 .stage {
   width: 50px;
-
 }
 .card-list {
   display: flex;
@@ -185,7 +181,7 @@ span {
 }
 .venue-details {
   text-align: left;
-  
+
   font-family: DM Sans;
   padding: 5px;
   margin: auto;
@@ -197,7 +193,7 @@ span {
   line-height: 17.65px;
   text-align: center;
   text-underline-position: from-font;
- 
+
   text-decoration-skip-ink: none;
 }
 
@@ -272,5 +268,69 @@ span {
 .image-size {
   width: 170px;
   height: 160px;
-  
+}
+@media (max-width: 768px) {
+  .event-p2 {
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .event-div1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    margin: auto;
+  }
+  .event-p3 {
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .event-heading {
+    width: 80vw;
+    height: 120px;
+    border-radius: 10px 10px 0px 0px;
+    background: #f26522;
+  }
+  .school-name {
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: -10px;
+    /* text-align: center; */
+    color: white;
+    /* text-underline-position: from-font; */
+    /* text-decoration-skip-ink: none; */
+    font-family: DM Sans;
+  }
+  .venue-details {
+    /* text-align: left; */
+    font-family: DM Sans;
+    padding: 5px;
+    margin: auto;
+    font-size: 15px;
+  }
+  .event-div2 {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 50px; */
+    flex-wrap: wrap;
+    width: 87vw;
+    margin: auto;
+    position: relative;
+    top: 23px;
+  }
+  .event-div3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    top: 70px;
+    width: 90vw;
+    margin: auto;
+  }
 }
