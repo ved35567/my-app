@@ -590,9 +590,8 @@ align-items: center;
   margin: auto;
 }
 .sp {
-  width: 81px;
-  height: 37px;
-  margin: auto;
+  width: 100px;
+        height: 32px;
 }
 .pbox2 {
   font-family: DM Sans;
@@ -610,7 +609,7 @@ align-items: center;
   /* text-align: center; */
   justify-content: center;
   flex-wrap: wrap;
-  width: 91vw;
+  width: 100vw;
   position: relative;
   top: 244px;
   margin: auto;
@@ -633,6 +632,7 @@ align-items: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   width: 90vw;
+  margin: auto;
 }
 p {
   font-family: DM Sans;
