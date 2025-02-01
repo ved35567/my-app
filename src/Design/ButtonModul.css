@@ -17,7 +17,7 @@
   height: 35px;
 }
 .btn {
-  position: fixed;
+ position: relative;
   display: flex;
   width: 250px;
   height: 35px;
@@ -31,26 +31,64 @@
     position: relative;
     background: #f26522;
     color: white;
-    width: 14vw;
+    width: 83px;
     height: 31px;
     padding: 0px 10px 0px 15px;
     border-radius: 6px;
+    font-size: 0.7rem;
   }
   .Login {
     background: #002aff;
     color: white;
     padding: 0px 10px 0px 15px;
     border-radius: 6px;
-    width: 14vw;
+    width: 83px;
     height: 31px;
+    font-size: 0.7rem;
   }
   .btn {
     position: fixed;
     display: flex;
-    width: 220px;
+    width: 179px;
     height: 31px;
-    left: 481px;
+    /* left: 484px; */
+    left: 65vw;
     gap: 10px;
     margin-top: 25px;
   }
+}
+@media screen and (max-width: 620px) {
+  .btn {
+    position: fixed;
+    display: flex
+;
+    width: 179px;
+    height: 31px;
+    /* left: 484px; */
+    left: 50vw;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+}
+@media screen and (max-width: 440px) {
+  .btn {
+    position: fixed;
+    display: flex
+;
+    width: 179px;
+    height: 31px;
+    /* left: 484px; */
+    left: 40vw;
+    gap: 10px;
+    margin-top: 25px;
+}
+.HeaderName {
+  /* display: none; */
+  position: fixed;
+  right: 250px;
+  top: 28px;
+  width: 87px;
+  left: 15px;
+}
 }

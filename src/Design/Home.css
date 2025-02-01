@@ -177,9 +177,9 @@
     /* display: none; */
     position: fixed;
     right: 250px;
-    top: 15px;
-    width: 140px;
-    left: 40px;
+    top: 25px;
+    width: 102px;
+    left: 25px;
   }
   .Section-three {
     position: relative;
@@ -222,9 +222,7 @@
   }
 }
 @media screen and (max-width: 577px) {
-  .HeaderName {
-   display: none;
-  }
+  
   .Section-one {
     display: flex;
     flex-direction: column;
