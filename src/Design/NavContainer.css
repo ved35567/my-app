@@ -6,6 +6,13 @@
   position: fixed;
   display: flex;
 }
+.harm-burger{
+  position: absolute;
+    top: 26px;
+    right: 115px;
+    height: 28px;
+    display: none;
+}
 
 ul {
   display: flex;
@@ -57,5 +64,12 @@ ul {
     background-color: #fff;
     position: absolute;
     left: -6%;
+  }
+  .harm-burger{
+    position: absolute;
+      top: 26px;
+      right: 115px;
+      height: 28px;
+      display: block;
   }
 }
