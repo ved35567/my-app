@@ -42,7 +42,6 @@
 }
 .Header {
   width: 50vw;
-  height: 100px;
 
   margin: auto;
 }
@@ -170,7 +169,7 @@
 
 @media screen and (max-width: 768px) {
   .Vss {
-    width: 125px;
+    width: 170px;
     height: 120px;
   }
   .HeaderName {

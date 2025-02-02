@@ -37,6 +37,7 @@ function Results() {
             <p className="rp3">1st Runner Up </p>
             <p className="sp3">Trophy and Rs. 50,000 Cash: Name of School</p>
           </div>
+          </div>
           <div className="result-div2">
             <img className="rkj" src="/About/Spardha.png" alt="" />
             <p className="rp4">Team Event Winners</p>
@@ -44,7 +45,7 @@ function Results() {
               What Makes SPARDHA 2024 an Event You Can’t Miss!
             </p>
           </div>
-        </div>
+        
         <div className="Trophy-container">
           <div className="game-container">
             <img className="trophy" src="/About/Trophy.png" alt="" />
@@ -127,7 +128,7 @@ function Results() {
               </p>
             </div>
           </div>
-          .
+          
           <div className="game-container">
             <img className="trophy" src="/About/Trophy.png" alt="" />
 

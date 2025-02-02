@@ -2,8 +2,9 @@
   position: absolute;
   top: 150px;
   z-index: -1000;
-  width: 100vw;
+  width: 100%;
 }
+
 .Result {
   display: flex;
   justify-content: center;
@@ -22,20 +23,16 @@
   flex-wrap: wrap;
   gap: 10px;
   width: 100vw;
-  height: 544px;
+  height: 100%;
 }
 .champion-one {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 544px;
+  
 }
-.SecondRunnerUp {
-  width: 217.18px;
-    height: 263px;
-  top: 386px;
-}
+
 .rp1 {
   font-family: DM Sans;
   font-size: 15.4px;
@@ -56,12 +53,7 @@
   width: 193.81px;
 
 }
-.SchoolChampion {
-  width: 430.15px;
-  height: 430px;
-  top: 260px;
-  left: 336.44px;
-}
+
 .rp2 {
   font-family: DM Sans;
   font-size: 1rem;
@@ -82,12 +74,7 @@
   width: 300px;
 
 }
-.FirstRunnerUp {
-  width: 217.18px;
-  height: 263px;
-  top: 344px;
-  left: 849.38px;
-}
+
 .rp3 {
   font-family: DM Sans;
   font-size: 15.4px;
@@ -114,11 +101,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+ 
+margin-top: 100px;
+  
 
-  position: relative;
-  top: 125px;
-  margin: auto;
+
 }
 .rkj {
   height: 30px;
@@ -148,7 +135,7 @@
   margin-top: 322px;
 
   width: 100vw;
-margin-top: 322px;
+margin-top: 72px;
   
   gap: 30px;
 
@@ -175,7 +162,7 @@ margin-top: 322px;
 }
 .category {
   width: 370px;
-  height: 320px;
+  
 
   display: flex;
   flex-direction: column;
@@ -230,3 +217,20 @@ p {
   text-decoration-skip-ink: none;
   margin: 5%;
 }
+ 
+@media(max-width:768px)
+{
+  .Champions-grp {
+    display: flex
+;
+flex-direction: column;
+    top: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100vw;
+    height: 100%;
+}
+}
+ 
