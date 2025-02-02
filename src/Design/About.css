@@ -14,10 +14,14 @@
   top: 30px;
 }
 .img {
-  border: 1px solid black;
-  border-radius: 5px;
-  display: flex;
-  width: 40vw;
+  
+    border: 1px solid black;
+    border-radius: 0px;
+    display: flex
+;
+    width: 500px;
+    height: 388px;
+
 }
 .About-flex img {
   width: 23vw;
@@ -30,24 +34,25 @@
   display: flex;
   flex-direction: column;
 
-  position: relative;
+ 
 
   flex-wrap: wrap;
   
-  width: 570px;
+  width: 500px;
 
   font-family: DM Sans;
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 25px;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  
 }
-
-
-.about-one {
-  padding: 10px;
+.abt{
+  font-size: 18px;
+}
+.about-one{ 
+  text-align:left;
+  font-size: 1rem;
 }
 
 .About-flex1 {
@@ -78,21 +83,26 @@
   padding: 10px;
   top: -15px;
   position: relative;
+  
+}
+.abt2{
+  font-size: 18px;
 }
 .about-two {
   font-family: DM Sans;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 30px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 25px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+
 }
 
 .image-container {
   
-  width: 45vw;
-  height: 589px;
+  width: 490px;
+  height: 550px;
   padding: 25px;
   border: 1px solid black;
   border-radius: 5px;
@@ -104,6 +114,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  width: 500px;
 }
 
 .flexi-row {
@@ -112,7 +123,7 @@
 
   position: relative;
   margin-top: 25px;
-  height: 340px;
+  height: 287px;
 }
 .rotary {
   width: 10vw;
@@ -132,7 +143,7 @@
 }
 .boy1 {
   
-  width: 13vw;
+  width: 133px;
   height: 120px;
   position: relative;
   bottom: -150px;
@@ -141,7 +152,7 @@
 }
 .girl {
   
-  width: 30vw;
+  width: 160px;
   height: 225px;
   top: 263.71px;
   left: 176px;
@@ -150,7 +161,7 @@
 .boy2 {
   
   height: 120px;
-  width: 13vw;
+  width: 133px;
  
   position: relative;
   bottom: -150px;
@@ -218,15 +229,15 @@
 
 .dev-image {
   width: 349px;
-  height: 250px;
+  
   position: relative;
-  top: -10px;
+  
 }
 .d1 {
   font-family: DM Sans;
   font-size: 18px;
   font-weight: 700;
-  line-height: 28px;
+
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -237,13 +248,14 @@
   flex-direction: column;
 
   width: 350px;
-  height: 350px;
+ 
 
   position: relative;
 }
 .p1 {
   width: 348px;
-  height: 60px;
+  height: 54px;
+
  
   font-family: DM Sans;
   font-size: 16px;

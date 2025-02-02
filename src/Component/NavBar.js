@@ -20,21 +20,21 @@ const NavBar = () => {
         <img className="HeaderName" src={navtitle} alt="Spardha img" />
         <ul className="hide-display">
           <li className="list-box">
-            <Link to="/">Home</Link>
+            <Link className="link" to="/">Home</Link>
           </li>
           <li className="list-box">
-            <Link to="/About">About</Link>
+            <Link className="link" to="/About">About</Link>
           </li>
 
           <li>
-            <Link to="/Event">Event</Link>
+            <Link className="link" to="/Event">Event</Link>
           </li>
           <li>
-            <Link to="/Results">Results</Link>
+            <Link className="link" to="/Results">Results</Link>
           </li>
           <li>
             {" "}
-            <Link to="/Contact"> Contact</Link>
+            <Link className="link" to="/Contact"> Contact</Link>
           </li>
         </ul>
 
